@@ -190,6 +190,4 @@ def main():
             video_input(data_src)
 
 
-
-if __name__ == "__main__":
-    main()
+main()
