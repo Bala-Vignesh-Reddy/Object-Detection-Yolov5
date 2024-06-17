@@ -4,6 +4,7 @@
 
 This web app allows users to run object detection using the YOLOv5s default model or upload a custom trained YOLOv5 model for checking purposes. The app is built using Streamlit. 
 
+![pic](data/image.png)
 ## Features
 
 - **Default YOLOv5s Model**: Run object detection using the pre-trained YOLOv5s model.
