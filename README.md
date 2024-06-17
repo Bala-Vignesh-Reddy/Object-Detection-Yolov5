@@ -1,7 +1,5 @@
 # Streamlit YOLOv5 Object Detection  Web App
 
----
-
 ## Overview
 
 This web app allows users to run object detection using the YOLOv5s default model or upload a custom trained YOLOv5 model for checking purposes. The app is built using Streamlit. 
@@ -45,20 +43,19 @@ To run this app locally, follow these steps:
 
 1. Open the app in your browser.
 2. Select the **Default Model** option.
-3. Upload an image or video. (Choose 'Upload your own data')
+3. Upload an image or video. (Choose **Upload your own data**)
 4. View the detection results.
 
 ### Custom YOLOv5 Model
 
 1. Open the app in your browser.
 2. Select the **Use your own model** option.
-3. Upload your custom trained YOLOv5 model (weights file).
-4. Upload an image or video. (Choose 'Upload your own data')
+3. Upload your custom trained YOLOv5 model (.pt file).
+4. Upload an image or video. (Choose **Upload your own data**)
 5. View the detection results.
 
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
----
 
