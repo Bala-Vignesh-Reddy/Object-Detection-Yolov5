@@ -21,7 +21,7 @@ To run this app locally, follow these steps:
 
 1. **Clone the repository:**
    ```sh
-   https://github.com/Bala-Vignesh-Reddy/Object-Detection-Yolov5.git
+   git clone https://github.com/Bala-Vignesh-Reddy/Object-Detection-Yolov5.git
    cd Object-Detection-Yolov5
    ```
 
