@@ -21,8 +21,8 @@ To run this app locally, follow these steps:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/streamlit-yolov5-app.git
-   cd streamlit-yolov5-app
+   https://github.com/Bala-Vignesh-Reddy/Object-Detection-Yolov5.git
+   cd Object-Detection-Yolov5
    ```
 
 2. **Create a virtual environment:**
