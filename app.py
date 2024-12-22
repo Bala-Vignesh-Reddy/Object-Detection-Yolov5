@@ -6,6 +6,10 @@ from PIL import Image
 import os
 import time
 
+import pathlib
+temp = pathlib.PosixPath
+pathlib.PosixPath = pathlib.WindowsPath
+
 st.set_page_config(layout="wide")
 
 cfg_model_path = 'models/yolov5s-model.pt'
@@ -138,11 +142,19 @@ def main():
     model_src = st.sidebar.selectbox(
             'Use Case Selection',
             ('yolov5s-default',
+             'yolov5n-default',
+             'display-test',
             'Use your own model'))
     # upload file (max 200mb)
 
     if model_src == 'yolov5s-default':
         cfg_model_path = "models/yolov5s-model.pt"
+    
+    if model_src == 'yolov5n-default':
+        cfg_model_path = "models/yolov5n.pt"
+    
+    if model_src == 'display-test':
+        cfg_model_path = "models/display.pt"
 
     if model_src == "Use your own model":
         user_model_path = get_user_model()
