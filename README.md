@@ -1,7 +1,7 @@
 # Streamlit YOLOv5 Object Detection  Web App
 
 ## Link
-- [Site](https://objectdetection-yolov5.streamlit.app/)
+- [Site](https://object-detection-yolov5.streamlit.app/)
 
 ## Overview
 
