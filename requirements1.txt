@@ -1,6 +1,0 @@
-streamlit
-torch
-opencv-python-headless
-ultralytics
-glob2
-pillow

@@ -1,6 +1,6 @@
-opencv_python==4.10.0.84
-opencv_python_headless==4.10.0.84
-Pillow==11.0.0
-streamlit==1.41.1
-torch==2.5.1
-glob
+streamlit
+torch
+opencv-python-headless
+ultralytics
+glob2
+pillow
