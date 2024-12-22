@@ -2,7 +2,7 @@
 
 ## Link
 - [Streamlit Deployed Site](https://object-detection-yolov5.streamlit.app/)
-- [Render Deployed Site](https://object-detection-yolov5.onrender.com)
+<!-- - [Render Deployed Site](https://object-detection-yolov5.onrender.com) -->
 
 ## Overview
 
