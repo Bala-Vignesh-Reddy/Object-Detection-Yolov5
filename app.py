@@ -6,9 +6,10 @@ from PIL import Image
 import os
 import time
 
-import pathlib
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+# to solve posixpath error 
+# import pathlib
+# temp = pathlib.PosixPath
+# pathlib.PosixPath = pathlib.WindowsPath
 
 st.set_page_config(layout="wide")
 
